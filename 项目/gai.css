@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: calc((100*100vw) / 600);
+    /* 1rem=62.5px */
+}
+.head{
+    background-color: #FF0036;
+    height: 0.804rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.head span:first-child{
+        font-size: 0.5rem;
+}
+.head span:nth-child(2){
+    font-size:0.5rem;
+}
+.head span:last-child{
+    font-size: 0.3rem;
+}
+.head span:not(.head-2){
+    line-height: 0.704rem;
+    padding:0 0.09rem;
+}
+.he{
+    font-size: 0;
+}
+.head-2{
+    position: relative;
+    width: 100%;
+    /* height: 0; */
+    background-color: #FF0036;
+    z-index: 99;
+    margin-top:0;
+    padding:0 0.155rem  0.1rem;
+}
+.head-2 .head-2-1{
+    position: absolute;
+    height:0.424rem; 
+    width: 0.536rem;
+    top: 0.1rem;
+    left: 0.2rem;
+}
+.head-2 input{
+    width: 5.68rem;
+    height: 0.576rem; 
+    box-sizing: border-box;
+    padding-left:0.9rem;
+    border: 1px solid blue;
+    border-radius: 0.09rem;
+}
+/* .head-2 .head-2-1{
+    position: absolute;
+    height:0.424rem; 
+    width: 0.536rem;
+    background-color: white;
+    top:0.1rem;
+    line-height: 0.424rem;
+    z-index: 99;
+    left: 0.37rem;
+    border: none;
+}
+.head-2 input{
+    width: 5.68rem;
+    height: 0.576rem; 
+    position: fixed;
+    top:  0.704rem;
+    left: 0.2rem;
+    box-sizing: border-box;
+    padding-left:0.9rem;
+    border: 1px solid white;
+    border-radius: 0.09rem;
+} */

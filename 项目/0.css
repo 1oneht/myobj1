@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: calc((100*100vw) / 600);
+    /* 1rem=62.5px */
+}
+boby{
+    height: 10.62rem;
+    overflow: scroll;
+}
+.head{
+    background-color: #FF0036;
+    height: 0.804rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.head span:first-child{
+        font-size: 0.5rem;
+}
+.head span:nth-child(2){
+    font-size:0.5rem;
+}
+.head span:last-child{
+    font-size: 0.3rem;
+}
+.head span:not(.head-2){
+    line-height: 0.704rem;
+    padding:0 0.09rem;
+}
+.he{
+    font-size: 0;
+}
+.head-2{
+    position: relative;
+    width: 100%;
+    /* height: 0; */
+    background-color: #FF0036;
+    z-index: 99;
+    margin-top:0;
+    padding:0 0.155rem  0.1rem;
+}
+.head-2 .head-2-1{
+    position: absolute;
+    height:0.424rem; 
+    width: 0.536rem;
+    top: 0.1rem;
+    left: 0.2rem;
+}
+.head-2 input{
+    width: 5.68rem;
+    height: 0.576rem; 
+    box-sizing: border-box;
+    padding-left:0.9rem;
+    border: 1px solid white;
+    border-radius: 0.09rem;
+}
+.nav-0{
+    width: 100%;
+    height: 1.248rem;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    position: relative;
+    padding: 0.1rem 0.2rem;
+}
+.nav .nav-1{
+    height: 0.768rem;
+    width: 0.768rem;
+}
+.nav .nav-2{
+    width: 1.12rem;
+    /* height: 0.24rem; */
+    font-size: 0.208rem;
+    position: absolute;
+    top:  0.968rem;
+    left: 0px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.one-1{
+    width: 6.61rem;
+    height: 1.81rem;
+    /* background-color: red; */
+    box-sizing: border-box;
+    margin-left:0.19rem;
+    position: relative;
+}
+.one-1 .one-2{
+    width: 12rem;
+    display: flex;
+    animation: mymove 4s infinite;
+    position: absolute;
+    top: 0rem;
+    left: 1.8rem;
+    padding:0 0.45rem;
+}
+.one-2 .one-3{
+    margin-right: 5.30rem;
+}
+/* .one3 img{
+    width: 8rem;
+} */
+@keyframes mymove {
+    0%,50%{
+        left: 0;
+    }
+    60%,100%{
+        left: -10rem;
+    }
+}
+.two{
+    margin-top: 0;
+}
+.two .two-1{
+    width: 6rem;
+    height: 2.88rem;
+} 
+.tu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 0.2rem;
+    padding: 0 0.18rem;
+}
+.tu .tu-1{
+    height: 2.056rem;
+    width: 2.76rem;
+    background-color: aqua;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.tu-1 .tu-img{
+    display: inline-block;
+    width: 100%;
+    height:100%;
+}
+.tu-1 .tu-2{
+    font-size: 0.288rem;
+    position: absolute;;
+    bottom: 0;
+    left: 25%;
+    color: #FF0000;
+    border: 1px solid #FF0000;
+    background-color: transparent;
+}
+.three{
+    height: 3.5rem;
+    margin-bottom: 0.1rem;
+}
+.three-1{
+    font-size: 0.288rem;
+}
+.three-2 .three-3{
+    height: 2.20rem;
+    width: 2.20rem;
+}
+.three .three-2 {
+    position: relative;
+}
+.three-2 .three-4{
+    font-size: 0.224rem;
+    width:2.20rem;
+    height: 0.576rem;
+    /* background-color: aqua; */
+    overflow: hidden;
+    text-overflow:ellipsis;
+    color: rgb(62, 62, 62);
+    position: absolute;
+    top: 2.24rem;
+    left: 0rem;
+}
+.three-2 .three-5{
+    width: 1.168rem;
+    height: 0.224rem;
+    position: absolute;
+    top: 2.87rem;
+    left: 0rem;
+}
+.three-2 .three-6{
+    position: absolute;
+    top: 3.07rem;
+    left: 0;
+    display: flex;
+    width: 2.20rem;
+    height:0.48rem;
+    align-items: center;
+    justify-content:space-between;
+}
+.three-6 div:first-of-type{
+    font-size: 0.256rem;
+    color: #FF0000;
+    font-weight: bold;
+}
+.three-6 div:last-of-type{
+    font-size: 0.192rem;
+    color: #FF0000;
+    width: 0.864rem;
+    height: 0.368rem;
+    border-radius: 0.368rem;
+    text-align: center;
+    line-height: 0.368rem;
+    background-color: rgb(255, 230, 235)
+}
+.thr{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    margin: 0.1rem 0;
+    flex-wrap: wrap;
+}
